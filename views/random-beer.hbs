@@ -8,11 +8,14 @@
         <h2>{{name}}</h2>
         <p>{{tagline}}</p>
         <p>{{description}}</p>
-        <p>{{food_pairing}}</p>
-        <p>Brewers Tips: {{brewers_tips}}</p>
+        <p><b>Food Pairing:</b>{{#each food_pairing}}</p>
+        <ul>
+            <li>{{this}}</li>
+        </ul> 
+    {{/each}}
+        <p><b>Brewers Tips: </b>{{brewers_tips}}</p>
      
     </div>
 
-    
 {{/each}}
 </div>
