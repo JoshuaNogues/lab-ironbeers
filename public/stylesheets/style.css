@@ -20,3 +20,12 @@ a {
   gap: 15px;
   margin-top: 20px;
 }
+
+.beers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
